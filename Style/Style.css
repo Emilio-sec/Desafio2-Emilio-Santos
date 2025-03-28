@@ -46,6 +46,12 @@ main {
     padding-right: 15px;
 }
 
+.info_1 p {
+    padding: 15px;
+    margin: 15px;
+    font-size: 17px;
+}
+
 .info_2 {
     overflow: hidden;
     background-color: rgb(251, 255, 220);
@@ -57,6 +63,17 @@ main {
     width: 250px;
     border-radius: 7px;
     padding-left: 15px;
+}
+
+.info_2 p {
+    padding: 15px;
+    margin: 15px;
+    font-size: 17px;
+}
+
+.info_2 h2 {
+    padding: 15px;
+    margin: 15px;
 }
 
 footer {
@@ -117,9 +134,10 @@ footer p {
     justify-content: center;
 }
 
+
 .card {
     margin: 20px;
-    width: 250px;
+    width: 350px;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0px 10px 10px  #ccc;
@@ -138,7 +156,56 @@ footer p {
     padding: 30px;
 }
 
-.card :hover {
+.tarjetas :hover {
     background-color: rgb(234, 189, 230);
     transform: scale(1.05);
+}
+
+.producto_mas_vendido {
+    overflow: auto;
+    background-color: rgb(251, 255, 220);
+}
+
+.producto_mas_vendido img {
+    float: left;
+    width: 350px;
+    border-radius: 7px;
+    padding-right: 15px;
+    padding-left: 75px;
+}
+
+.producto_mas_vendido button {
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.producto_mas_vendido button a {
+    text-decoration: none;
+    color: rgb(234, 189, 230);
+}
+
+.producto_mas_vendido button :hover {
+    color: purple;
+    text-decoration: underline;
+}
+
+.historia {
+    overflow: hidden;
+    background-color: rgb(251, 255, 220);
+    border-radius: 7px;
+}
+
+.historia img {
+    float: left;
+    width: 350px;
+    border-radius: 7px;
+    padding-right: 15px;
+}
+
+.historia p {
+    padding: 15px;
+    margin: 15px;
+    font-size: 17px;
 }
